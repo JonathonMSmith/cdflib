@@ -2152,7 +2152,7 @@ class CDF:
             dt_string = 's'
         return dt_string
 
-    def _default_pad(self, data_type, num_elms):   # @NoSelf
+    def _default_pad(self, data_type, num_elms):
         '''
         The default pad values by CDF data type
         '''
@@ -2200,7 +2200,7 @@ class CDF:
             pass
         return ret
 
-    def _convert_np_data(data, data_type, num_elems):   # @NoSelf
+    def _convert_np_data(self, data, data_type, num_elems):
         '''
         Converts a single np data into byte stream.
         '''
